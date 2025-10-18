@@ -1,16 +1,25 @@
-# YT-Voice-Recognition-Captions
+# 🎙️ AI Club — YouTube Voice Recognition + Captions
 
-need to create a .env file
+This project demonstrates a YouTube voice recognition system that automatically generates captions from video audio.  
+It downloads a YouTube video, extracts its audio, and uses speech recognition to create accurate, time-aligned subtitles.
 
-Data collection
-Download videos through a python library → pytube 
-Extract audio using tools like moviepy, or ffmpeg
-Speech-to-text 
-Use existing models like OpenAI Whisper (check rate limits), Wav2Vec2, or any other model off of huggingface that is
-Lightweight 
-Free 
-Works for your purpose 
-Think about how to get relevant captions 
-Use an LLM to summarize your newly created text? (How would you store text? What model will you use)
-Generating tags? 
-Optional (Medium): Add language translation with other technologies out there. Consider delay times and use cases. 
+---
+
+## 🧠 Features
+- Downloads YouTube videos directly from a provided link  
+- Extracts and processes audio for transcription  
+- Uses speech recognition to generate captions  
+- Outputs text and subtitle files for accessibility and analysis  
+
+---
+
+## 👥 Contributors
+This project was collaboratively developed by members of the **AI Club**:
+
+- Wiley Cubic  
+- Ryan Haigh  
+- Chuck Thompson  
+- Isabelle Lee  
+- Josh Martinez  
+- Ryan Canino  
+- Michael Marroquin  
