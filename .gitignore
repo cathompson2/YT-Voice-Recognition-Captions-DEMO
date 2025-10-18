@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+
+# Vitrual environment
+venv/
+ENV/
+
+# Environment variables
+.env
+
+
